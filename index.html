@@ -1,31 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./styles/reset.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ramaraja&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ramaraja&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/index.css">
     <title>Medi</title>
 </head>
+
 <body>
     <header>
-        <h3 class="logo">Medi <span class="logo-dot">.</span></h3>
-        <nav>
-            <ul>Home</ul>
-            <ul>About</ul>
-            <ul>Blog</ul>
-            <ul>Contact</ul>
-        </nav>
-        <button>Sign In</button>
-        <button>Sign Up</button>
-    </header> 
+        <div style="display: inline-block;"> <!--logo-->
+            <h3 class="logo">Medi <span class="logo-dot">.</span></h3>
+        </div>
+
+        <div id="navigation" style="display: inline-block;"> <!--navigation-->
+            <nav>
+                <ul class="navigation">Home</ul>
+                <ul class="navigation">About</ul>
+                <ul class="navigation">Blog</ul>
+                <ul class="navigation">Contact</ul>
+            </nav>
+        </div>
+
+        <div id="sign-buttons" style="display: inline-block;"> <!--buttons-->
+            <button class="main-button" style="background-color:white;  font-weight: normal; color:#1B0A42; margin-top: 18px; margin-left: 0px;">Sign In</button>
+            <button class="main-button" style="margin-top: 18px; margin-left: 0px;">Sign Up</button>
+        </div>
+    </header>
     <main>
         <section>
             <h1 class="main-title">Stay Productive &
                 Work Remotely</h1>
-            <p class="main-info">The key to work-from-home success is to create an 
-                enviroment that allows you to focus on the tasks at hand. Whether you are working from home for the first time.</p>
+            <p class="main-info">The key to work-from-home success is to create an
+                enviroment that allows you to focus on the tasks at hand. Whether you are working from home for the
+                first time.</p>
             <button class="main-button">Learn More</button>
         </section>
         <section>
@@ -33,4 +46,5 @@
         </section>
     </main>
 </body>
+
 </html>
